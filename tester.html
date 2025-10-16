@@ -1,0 +1,211 @@
+<div class="live-rtp-grid" id="rtpContainer"><div class="rtp-card">
+    <link rel="stylesheet" href="assets/style.css">  
+    
+    
+    
+<!-- ===== SECTION LIVE RTP ===== -->
+<!-- ===== SECTION LIVE RTP ===== -->
+<section class="live-rtp-section" id="rtp">
+  <h2 class="live-rtp-title">🔥 Live RTP Slot Hari Ini 🔥</h2>
+
+  <!-- PROVIDER SLIDER -->
+  <div class="provider-slider">
+    <button class="slider-arrow left" onclick="scrollProvider(-1)">❮</button>
+
+    <div class="provider-list" id="providerList">
+      <div class="provider-item active" onclick="selectProvider(this, 'Pragmatic Play')">
+        <img src="assets/img/pragmatic.webp" alt="Pragmatic Play">
+        <span class="badge">HOT</span>
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'PG Soft')">
+        <img src="assets/img/pgsoft.webp" alt="PG Soft">
+        <span class="badge">HOT</span>
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Slot88 x PP')">
+        <img src="assets/img/slot88xpp.webp" alt="Slot88 x PP">
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Habanero')">
+        <img src="assets/img/habanero.webp" alt="Habanero">
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Spadegaming')">
+        <img src="assets/img/spadegaming.webp" alt="Spadegaming">
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Microgaming')">
+        <img src="assets/img/microgaming.webp" alt="Microgaming">
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Jili')">
+        <img src="assets/img/jili.webp" alt="Jili">
+      </div>
+      <div class="provider-item" onclick="selectProvider(this, 'Joker')">
+        <img src="assets/img/joker.webp" alt="Joker">
+      </div>
+    </div>
+
+    <button class="slider-arrow right" onclick="scrollProvider(1)">❯</button>
+  </div>
+
+  <!-- PROVIDER NAME -->
+  <div id="providerNameDisplay" class="provider-name-display">Pragmatic Play</div>
+
+  <!-- FILTER & SEARCH (opsional) -->
+  <div class="provider-filter-bar">
+    <div class="filter-tabs">
+      <button class="active" onclick="showAllProviders()">SEMUA PERMAINAN</button>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Cari Permainan" id="searchInput">
+      <button><i class="fas fa-search"></i></button>
+    </div>
+  </div>
+
+  <!-- GAME GRID — HANYA SATU rtpContainer -->
+  <div class="live-rtp-grid" id="rtpContainer">
+    <!-- Pragmatic -->
+    <div class="rtp-card" data-provider="pragmatic play">
+      <img src="images/pragmatic/wild-west-gold.jpg" alt="Wild West Gold">
+      <span class="provider">Pragmatic Play</span>
+      <h3>Wild West Gold</h3>
+      <div class="rtp-bar"><div class="rtp-fill rtp-green" style="width:98.62%;">98.62%</div></div>
+      <div class="rtp-info">Jam<br>3:00 - 4:00 WIB</div>
+      <div class="rtp-actions">
+        <a href="https://laskar138cuann.xyz" class="btn-main" target="_blank">Klik Main</a>
+        <button class="btn-pola" onclick="showPola('Wild West Gold', 49)">Lihat Pola</button>
+      </div>
+    </div>
+
+    <div class="rtp-card" data-provider="pragmatic play">
+      <img src="images/pragmatic/sugar-rush-1000.jpg" alt="Sugar Rush 1000">
+      <span class="provider">Pragmatic Play</span>
+      <h3>Sugar Rush 1000</h3>
+      <div class="rtp-bar"><div class="rtp-fill rtp-green" style="width:98.33%;">98.33%</div></div>
+      <div class="rtp-info">Jam<br>3:00 - 4:00 WIB</div>
+      <div class="rtp-actions">
+        <a href="https://laskar138cuann.xyz" class="btn-main" target="_blank">Klik Main</a>
+        <button class="btn-pola" onclick="showPola('Sugar Rush 1000', 40)">Lihat Pola</button>
+      </div>
+    </div>
+
+    <!-- PG Soft -->
+    <div class="rtp-card" data-provider="pg soft">
+      <img src="images/pgsoft/legendary-monkey-king.jpg" alt="Legendary Monkey King">
+      <span class="provider">PG Soft</span>
+      <h3>Legendary Monkey King</h3>
+      <div class="rtp-bar"><div class="rtp-fill rtp-green" style="width:97.38%;">97.38%</div></div>
+      <div class="rtp-info">Jam<br>3:00 - 4:00 WIB</div>
+      <div class="rtp-actions">
+        <a href="https://laskar138cuann.xyz" class="btn-main" target="_blank">Klik Main</a>
+        <button class="btn-pola" onclick="showPola('Legendary Monkey King', 88)">Lihat Pola</button>
+      </div>
+    </div>
+
+    <div class="rtp-card" data-provider="pg soft">
+      <img src="images/pgsoft/incan-wonders.jpg" alt="Incan Wonders">
+      <span class="provider">PG Soft</span>
+      <h3>Incan Wonders</h3>
+      <div class="rtp-bar"><div class="rtp-fill rtp-green" style="width:96.66%;">96.66%</div></div>
+      <div class="rtp-info">Jam<br>3:00 - 4:00 WIB</div>
+      <div class="rtp-actions">
+        <a href="https://laskar138cuann.xyz" class="btn-main" target="_blank">Klik Main</a>
+        <button class="btn-pola" onclick="showPola('Incan Wonders', 83)">Lihat Pola</button>
+      </div>
+    </div>
+
+    <div class="rtp-card" data-provider="pg soft">
+      <img src="images/pgsoft/ninja-raccoon-frenzy.jpg" alt="Ninja Raccoon Frenzy">
+      <span class="provider">PG Soft</span>
+      <h3>Ninja Raccoon Frenzy</h3>
+      <div class="rtp-bar"><div class="rtp-fill rtp-green" style="width:96.45%;">96.45%</div></div>
+      <div class="rtp-info">Jam<br>3:00 - 4:00 WIB</div>
+      <div class="rtp-actions">
+        <a href="https://laskar138cuann.xyz" class="btn-main" target="_blank">Klik Main</a>
+        <button class="btn-pola" onclick="showPola('Ninja Raccoon Frenzy', 98)">Lihat Pola</button>
+      </div>
+    </div>
+
+    <!-- (tambahkan provider lain di sini, struktur sama) -->
+
+    <!-- Fallback jika kosong -->
+    <div class="rtp-empty" style="display:none; grid-column:1 / -1; padding:24px; text-align:center; border:1px dashed #334155; border-radius:12px; background:#0f172a; color:#cbd5e1;">
+      Belum ada game untuk provider ini.
+    </div>
+  </div>
+</section>
+
+<script>
+  // ----- Helper normalisasi -----
+  const norm = s => (s || '').toLowerCase().replace(/\s+/g, ' ').trim();
+
+  // ----- Scroll slider (opsional) -----
+  function scrollProvider(dir = 1){
+    const list = document.getElementById('providerList');
+    const step = list.clientWidth * 0.8;
+    list.scrollBy({ left: dir * step, behavior: 'smooth' });
+  }
+
+  // ----- Pilih provider dari slider -----
+  function selectProvider(el, providerName){
+    // tandai aktif
+    document.querySelectorAll('.provider-item.active').forEach(i => i.classList.remove('active'));
+    el.classList.add('active');
+    // ganti title
+    const disp = document.getElementById('providerNameDisplay');
+    if (disp) disp.textContent = providerName;
+    // filter grid
+    filterRTPGrid(providerName);
+    // reset search (jika dipakai)
+    const s = document.getElementById('searchInput');
+    if (s) s.value = '';
+  }
+
+  // ----- Tampilkan semua (opsional tombol "SEMUA PERMAINAN") -----
+  function showAllProviders(){
+    const cont = document.getElementById('rtpContainer');
+    cont.querySelectorAll('.rtp-card').forEach(c => c.style.display = '');
+    cont.querySelector('.rtp-empty').style.display = 'none';
+    const disp = document.getElementById('providerNameDisplay');
+    if (disp) disp.textContent = 'Semua Provider';
+    document.querySelectorAll('.provider-item.active').forEach(i => i.classList.remove('active'));
+  }
+
+  // ----- Filter kartu sesuai provider -----
+  function filterRTPGrid(providerName){
+    const cont = document.getElementById('rtpContainer');
+    const key = norm(providerName);
+    const cards = cont.querySelectorAll('.rtp-card');
+    let visible = 0;
+
+    // pastikan setiap card punya data-provider (kalau belum, isi dari <span.provider>)
+    cards.forEach(card => {
+      if (!card.dataset.provider) {
+        const prov = card.querySelector('.provider')?.textContent || '';
+        card.dataset.provider = norm(prov);
+      }
+      const show = card.dataset.provider === key;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+
+    // empty state
+    cont.querySelector('.rtp-empty').style.display = visible ? 'none' : '';
+  }
+
+  // ----- Init saat halaman siap -----
+  document.addEventListener('DOMContentLoaded', () => {
+    // set data-provider bila belum ada
+    document.querySelectorAll('#rtpContainer .rtp-card').forEach(card => {
+      if (!card.dataset.provider) {
+        const prov = card.querySelector('.provider')?.textContent || '';
+        card.dataset.provider = norm(prov);
+      }
+    });
+
+    // pilih provider yang sudah active di slider
+    const active = document.querySelector('.provider-item.active');
+    const name = active?.querySelector('img')?.alt || 'Pragmatic Play';
+    selectProvider(active, name);
+  });
+</script>
+
+
+
+    
